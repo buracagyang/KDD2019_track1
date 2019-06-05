@@ -65,8 +65,8 @@ rank_feature_list = ["plan_rank", "whole_rank", "price_rank", "eta_rank", "dista
 rank_whole_pic_list = ["mode_rank1", "mode_rank2", "mode_rank3", "mode_rank4", "mode_rank5"]
 query_feature_list = ["weekday", "hour", "o1", "o2", "d1", "d2"]
 weather_feature_list = ["max_temp", "min_temp", "wea", "wind"]
-pid_list = ['pid']  # 加入后效果貌似还变差了...
-profile_features_list = ['p{}'.format(i) for i in range(66)]
+pid_list = ['pid']  # 加入后效果貌还变差了...
+profile_features_list = ['p{}'.format(i) for i in range(66)]  # 其实是已经one-hot后的特征
 
 
 def preprocess_main():

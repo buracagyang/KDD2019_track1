@@ -7,7 +7,7 @@ KDD2019中的常规机器学习赛道： [Context-Aware Multi-Modal Transportati
 
 ## 环境
 
-`Python3.5` | `Windows10` | `tensorflow1.11.0`
+`Python3.5` | `Windows10` | `TensorFlow1.11.0`
 
 
 
@@ -28,7 +28,7 @@ python deep_fm.py --task_type=train  # --embedding_size=10 --learning_rate=1.0 �
 
 
 
-# 测试结果
+## 测试结果
 
 ```python
 python deep_fm.py --task_type=infer
